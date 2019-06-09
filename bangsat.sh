@@ -21,21 +21,18 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 clear
-echo "Kamu Akan Masuk Dalam 5 Detik Lagi Mohon Tunggu Oke" | lolcat
-sleep 1
-figlet 5 | lolcat
-sleep 1
-figlet 4 | lolcat
-sleep 1
-figlet 3 | lolcat
-sleep 1
-figlet 2 | lolcat
-sleep 1
-figlet 1 | lolcat
-sleep 1
+echo "Mohon Maaf Anda Harus Install Ini Terlebih Dahulu Agar Tidak Eror"
+echo "Tekan Enter Gan Untuk Install"
+read enter
+pkg update && pkg upgrade
+pkg install toilet
+pkg install ruby
+gem install lolcat
+pkg install figlet
+pkg install cowsay
 clear
-figlet SELAMAT IDUL FITRI MOHON MAAF LAHIR DAN BATIN | lolcat
-sleep 5
+figlet SELAMAT DATANG DI TOOLS | lolcat
+sleep 3
 clear
 figlet B4NGS4T | lolcat
 
@@ -74,7 +71,7 @@ exit
 }
 
 lagi=1
-while [ $lagi -lt 15 ];
+while [ $lagi -lt 19 ];
 do
 echo ""
 echo -e "✿────────────────────✿" | lolcat
@@ -121,16 +118,8 @@ date
 echo -e "PILIH GAN" |lolcat
 read -p "[MrTakil@Tools]> " pil;
 
-# Nmap
-
 case $pil in
-1) echo "Otw Install Nmap Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+1) echo "Otw Install Nmap"
 pkg install nmap
 echo -e  "${y} {1} Masukkan Web${endc}:"
 read web
@@ -140,15 +129,7 @@ echo "Nmap Selesai Di Install"
 
 ;;
 
-# admin-finder
-
-2) echo "Otw Install admin-finder Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+2) echo "Otw Install admin-finder"
 git clone  https://github.com/the-c0d3r/admin-finder.git
 echo -e "${y} cara menggunakan admin finder"
 echo -e "${y} cd admin-finder"
@@ -160,15 +141,7 @@ echo "Admin Finder Selesai Di Install"
 
 ;;
 
-#RED_HAWK
-
-3) echo "Otw Install RED_HAWK Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+3) echo "Otw Install RED_HAWK"
 git clone https://github.com/Tuhinshubhra/RED_HAWK
 echo -e "${y} Installer RED_HAWK..."
 echo -e "${y} cd RED_HAWK"
@@ -179,15 +152,7 @@ echo "Red Hawk Selesai Di Install"
 
 ;;
 
-#Lazymux
-
-4) echo "Otw Install Lazymux Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+4) echo "Otw Install Lazymux"
 git clone https://github.com/Gameye98/Lazymux
 echo -e "${y} Installer Lazymux..."
 echo -e "${y} cd Lazymux"
@@ -198,15 +163,7 @@ echo "Lazymux Selesai Di Install"
 
 ;;
 
-#Tools-X
-
-5) echo "Otw Install Tools-X Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+5) echo "Otw Install Tools-X"
 git clone https://github.com/Rajkumrdusad/Tool-X
 echo -e "${y} Installer Tool-X..."
 echo -e "${y} cd Tool-X"
@@ -214,17 +171,10 @@ echo -e "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
 bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 echo "Tools-X Selesai Di Install"
+
 ;;
 
-#thema-termux
-
-6) echo "Otw Install Thema-Termux Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+6) echo "Otw Install Thema-Termux"
 apt-get update && apt-get upgrade
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 ~/.termux/colors.sh
@@ -233,15 +183,7 @@ echo "Thema Termux Selesai"
 
 ;;
 
-#Spam-Call
-
-7) echo "Otw Install SpamCall Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+7) echo "Otw Install SpamCall"
 apt-get update && apt-get upgrade
 apt-get install git
 apt-get install unzip
@@ -253,15 +195,7 @@ echo "SpamCall Selesai Di Install"
 
 ;;
 
-#Ngrok
-
-8) echo "Otw Install Ngrok Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+8) echo "Otw Install Ngrok"
 apt install wget
 mkdir ngrok
 cd ~/ngrok
@@ -272,15 +206,7 @@ echo "Ngrok Selesai Di Install"
 
 ;;
 
-#Hammer
-
-9) echo "Otw Install Hammer Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+9) echo "Otw Install Hammer"
 pkg update
 pkg upgrade
 pkg install python
@@ -291,15 +217,7 @@ echo "Hammer Selesai Di Install"
 
 ;;
 
-#TuanBadut
-
-10) echo "Otw Install TuanBadut Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+10) echo "Otw Install TuanBadut"
 apt update && apt upgrade -y
 apt install git
 apt install php
@@ -315,15 +233,7 @@ echo "TuanBadut Selesai Di Install"
 
 ;;
 
-#Webdav
-
-11) echo "Otw Install Webdav Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+11) echo "Otw Install Webdav"
 apt update && apt upgrade
 apt install python2
 pip2 install urllib3 chardet certifi idna requests
@@ -338,21 +248,11 @@ echo "Webdav Selesai Di Install"
 
 ;;
 
-#Upgrade-Pip
-
 12) pip install --upgrade pip
 
 ;;
 
-#Spam-Callv2
-
-13) echo "Otw Install SpamCall Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+13) echo "Otw Install SpamCall"
 pkg update && pkg upgrade
 pkg install php
 pkg install git
@@ -361,15 +261,7 @@ echo "Spam-Callv2 Selesai Di Install"
 
 ;;
 
-#Create-Virus
-
-14) echo "Otw Install Create-Virus Dalam"
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+14) echo "Otw Install Create-Virus"
 git clone https://github.com/ashishb/android-malware
 echo -e "${y} Cara membuat virus mematikan"
 echo -e "${y} cd android-malware"
@@ -381,8 +273,6 @@ echo -e "${y} Nah kalian tinggal pindahin virus itu ke sdcard"
 
 ;;
 
-#CaraPlayMusic
-
 15) echo -e "Enjoy Your Music"
 echo -e "No Lag"
 echo -e "Skip Tekan Enter"
@@ -393,11 +283,8 @@ termux-setup-storage
 pkg install mpv
 mpv /sdcard/download
 mpv /sdcard/vidmate/download
-mpv /sdcard/Whatsapp/Media/Whatsapp Audio
 
 ;;
-
-#ApaSajaYangBaru
 
 16) echo -e "✿──────────────────────────────────────✿"
 echo -e "Pembaruan Tools"
@@ -423,22 +310,18 @@ read enter
 
 ;;
 
-#About
-
 17) echo -e "Author : Muhammad Faristanto Salman 'mrtakil'"
 echo -e "Name : B4NGS4D"
 echo -e "CodeName : mrtakil"
 echo -e "version : v3.0"
 echo -e "Date : (29/4/2019)~(20:00)"
 echo -e "Team : Tasikmalaya Cyber Team"
-echo -e "Email : musikremix122@gmail.com"
+echo -e "Email : mrtakilganteng72@yahoo.com"
 echo -e "WhatsApp : 089657737111"
 echo -e "Teken Enter Untuk Kembali"
 read enter
 
 ;;
-    
-#Pertama-Install
 
 18) echo "Ini Membutuhkan Waktu 10 Menit Lebih Jadi Mohon Sabar Oke"
 echo "Jadi Tunggu Jangan Di Ctrl + C Oke"
@@ -470,7 +353,7 @@ echo "Dan Masih Banyak Lagi Semua Sudah Download Jadi Kalian Tinggal Memakai Nya
 
 ;;
 
-19) echo "Created By : MR.F4R1S" | lolcat
+19) echo "Created By : MrTakil" | lolcat
 echo "Terimakasih Sudah Menggunakan Tools Ini " | lolcat
 echo "semoga bapak dan emak kalian masuk haji setelah memakai sc ini amin" | lolcat
 echo "dan amal ibadah nya di lancarkan dan puasa di bulan Ramadhan lancar amin " | lolcat
