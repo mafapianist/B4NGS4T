@@ -37,10 +37,10 @@ clear
 figlet SELAMAT IDUL FITRI MOHON MAAF LAHIR DAN BATIN | lolcat
 sleep 5
 clear
-figlet B4N9S4T | lolcat
+figlet B4NGS4T | lolcat
 
 echo -e  "✿───────────────────────────────────────✿"
-echo -e  "Tools    : B4N9S4T $white         " |lolcat
+echo -e  "Tools    : B4NGS4T $white         " |lolcat
 echo -e  "Creadby  : mrtakil $white   " |lolcat
 echo -e  "Contact  : mrtakilganteng72@yahoo.com $white " |lolcat
 echo -e "VersiTools : v3.0 $white " |lolcat
@@ -414,7 +414,7 @@ echo -e "Bagian Untuk Memilih Di Ganti"
 echo -e "✿──────────────────────────────────────✿"
 echo -e "Bagian Tools Di Tambahkan PlayMusic"
 echo -e "✿──────────────────────────────────────✿"
-echo -e "Nama Tools Berubah Menjadi 'B4N9S4T'"
+echo -e "Nama Tools Yang Sebelum Nya ToolsTSK Berubah Menjadi 'B4NGS4T'"
 echo -e "Dan Salam Pembuka Juga Di Ubah"
 echo -e "Semua Nama Nama Tools Di Ubah Dan Di Hias"
 echo -e "✿──────────────────────────────────────✿"
@@ -426,7 +426,7 @@ read enter
 #About
 
 17) echo -e "Author : Muhammad Faristanto Salman 'mrtakil'"
-echo -e "Name : B4N9S4D"
+echo -e "Name : B4NGS4D"
 echo -e "CodeName : mrtakil"
 echo -e "version : v3.0"
 echo -e "Date : (29/4/2019)~(20:00)"
